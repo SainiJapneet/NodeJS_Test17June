@@ -1,0 +1,22 @@
+What is a Promise in JavaScript and how does it work? 
+Explain the states of a Promise. 
+Explain how to chain multiple Promises together and the syntax for doing so.
+
+Answer:  Promise is used to handle an asynchronous function and its resulting value.
+
+Promise has three states: -
+1) Pending
+2) Accepted 
+3) Rejected
+
+Pending: When we are waiting for the asynchronous function to execute.
+Accepted: The function has been executed and promise gets resolved.
+Rejected: The function hasn't been executed due to an error or some other reasons leading to rejection of the promise.
+
+To perform promise chaining we can use multiple then blocks with a promise and followed by a catch block to handled any type of error in any of the then() block.
+
+promise.
+then((result)=>{}).
+then((result)=>{})
+the((result)=>{}).
+catch((error)=>{})
